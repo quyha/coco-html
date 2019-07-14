@@ -199,6 +199,7 @@ main {
 
 .upsell-wrapper {
     background-color: var(--color-gray);
+    padding-bottom: 30px;
 }
 
 .product-video {
@@ -209,6 +210,16 @@ main {
 .upsell-content {
     padding: 50px 30px 30px 30px;
     background-color: #efeded;
+    position: relative;
+}
+
+.upsell-plus {
+    position: absolute;
+    top: -15px;
+    left: 0;
+    right: 0;
+    width: 30px;
+    margin: auto;
 }
 
 .upsell-title {
@@ -221,6 +232,26 @@ main {
 
 .upsell-price {
     margin-top: 10px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.upsell-atc {
+    display: flex;
+    align-items: center;
+}
+
+.upsell-picture {
+    width: 45%;
+}
+
+.upsell-picture > img {
+    width: 100%;
+}
+
+.upsell-atc .button {
+    margin-left: 10px;
+    flex-grow: 3;
     font-weight: bolder;
 }
 
@@ -245,5 +276,9 @@ main {
     .product-info {
         padding-left: 10px;
         padding-right: 10px;
+    }
+
+    .upsell-content {
+        padding: 30px 10px;
     }
 }
